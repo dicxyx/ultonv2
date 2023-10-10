@@ -22,7 +22,7 @@ proxy-groups:
   url: http://www.gstatic.com/generate_204
   interval: '300'
 - name: 🟡SEMUA
-  type: url-test
+  type: loadbalance
   disable-udp: false
   proxies:
   - 1. EU-B
