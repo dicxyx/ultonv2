@@ -15,10 +15,10 @@ proxy-groups:
   - 10. MUX
   - 11. H3
   - 12. MEL
-  - 14. ID
-  - 16. H1.1
-  - 17. AMP
-  - 18. ASI
+  - 13. ID
+  - 14. H1.1
+  - 15. AMP
+  - 16. ASI
   url: http://www.gstatic.com/generate_204
   interval: '300'
 #🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰
@@ -231,7 +231,7 @@ proxies:
       Host: id-1.test3.net
   udp: true
   
-- name: 16. H1.1
+- name: 15. H1.1
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -245,7 +245,7 @@ proxies:
       Host: sg1-trojan.bonds.id
   udp: true
 
-- name: 17. AMP
+- name: 16. AMP
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -259,7 +259,7 @@ proxies:
       Host: sg-2.test3.net
   udp: true
 
-- name: 18. ASI
+- name: 17. ASI
   server: 104.18.107.64
   port: 443
   type: trojan
