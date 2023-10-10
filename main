@@ -4,19 +4,19 @@ proxy-groups:
   disable-udp: false
   proxies:
   - 1. EU
-  - 2. GE
-  - 3. H1 
-  - 4. FR
+  - 2. FR
+  - 3. GE 
+  - 4. TU
   - 5. UK
-  - 6. FR
-  - 7. EU.1
-  - 8. TR
-  - 9. TH
-  - 10. MUX
+  - 6. TH
+  - 7. CA
+  - 8. MUX
+  - 9. MEL
+  - 10. H2
   - 11. H3
-  - 12. MEL
-  - 13. ID
-  - 14. H1.1
+  - 12. IDHE
+  - 13. H1
+  - 14. US
   - 15. AMP
   - 16. ASI
   url: http://www.gstatic.com/generate_204
@@ -47,7 +47,7 @@ proxies:
       Host: ro1.test3.net
   udp: true
 
-- name: 2. GE
+- name: 2. FR
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -61,7 +61,7 @@ proxies:
       Host: de1.test3.net
   udp: true
 
-- name: 3. H1
+- name: 3. GE
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -75,7 +75,7 @@ proxies:
       Host: sg1-trojan.bonds.id
   udp: true
 
-- name: 4. FR
+- name: 4. TU
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -102,10 +102,8 @@ proxies:
     headers:
       Host: sg3-trojan.bonds.id
   udp: true
-  
-#\\//#
 
-- name: 6. FR
+- name: 6. TH
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -119,7 +117,7 @@ proxies:
       Host: sg-4.test3.net
   udp: true
 
-- name: 7. EU.1
+- name: 7. CA
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -133,7 +131,7 @@ proxies:
       Host: ro1.test3.net
   udp: true
   
-- name: 8. TR
+- name: 8. MUX
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -147,7 +145,7 @@ proxies:
       Host: tr.test3.net
   udp: true
 
-- name: 9. TH
+- name: 9. MEL
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -161,7 +159,7 @@ proxies:
       Host: th1-trojan.bonds.id
   udp: true
 
-- name: 10. MUX
+- name: 10. H2
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -189,7 +187,7 @@ proxies:
       Host: sg2-trojan.bonds.id
   udp: true
   
-- name: 12. MEL
+- name: 12. IDHE
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -203,7 +201,7 @@ proxies:
       Host: sg-4.test3.net
   udp: true
   
-- name: 13. H2
+- name: 13. H1
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -217,7 +215,7 @@ proxies:
       Host: sg2-trojan.bonds.id
   udp: true
   
-- name: 14. ID
+- name: 14. US
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -231,7 +229,7 @@ proxies:
       Host: id-1.test3.net
   udp: true
   
-- name: 15. H1.1
+- name: 15. AMP
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -245,7 +243,7 @@ proxies:
       Host: sg1-trojan.bonds.id
   udp: true
 
-- name: 16. AMP
+- name: 16. ASI
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -259,19 +257,6 @@ proxies:
       Host: sg-2.test3.net
   udp: true
 
-- name: 17. ASI
-  server: 104.18.107.64
-  port: 443
-  type: trojan
-  password: de138350-60d4-11ee-8353-1239d025
-  skip-cert-verify: true
-  sni: sg-2.test3.net
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg-2.test3.net
-  udp: true
 #🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰    
 dns:
   nameserver:
