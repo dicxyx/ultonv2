@@ -1,4 +1,27 @@
----
+proxy-groups:
+- name: OTOMATIS
+  type: url-test
+  disable-udp: false
+  proxies:
+  - 1. EU
+  - 2. GE
+  - 3. H1 
+  - 4. FR
+  - 5. UK
+  - 6. FR
+  - 7. EU.1
+  - 8. TR
+  - 9. TH
+  - 10. MUX
+  - 11. H3
+  - 12. MEL
+  - 14. ID
+  - 16. H1.1
+  - 17. AMP
+  - 18. ASI
+  url: http://www.gstatic.com/generate_204
+  interval: '300'
+#🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰
 rule-providers:
   Rule-Direct:
     type: file
@@ -250,29 +273,6 @@ proxies:
       Host: sg-2.test3.net
   udp: true
 #🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰    
-proxy-groups:
-- name: OTOMATIS
-  type: url-test
-  disable-udp: false
-  proxies:
-  - 1. EU
-  - 2. GE
-  - 3. H1 
-  - 4. FR
-  - 5. UK
-  - 6. FR
-  - 7. EU.1
-  - 8. TR
-  - 9. TH
-  - 10. MUX
-  - 11. H3
-  - 12. MEL
-  - 14. ID
-  - 16. H1.1
-  - 17. AMP
-  - 18. ASI
-  url: http://www.gstatic.com/generate_204
-  interval: '300'
 dns:
   nameserver:
   - dhcp://"eth1"
