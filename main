@@ -207,20 +207,6 @@ proxies:
     headers:
       Host: id-1.test3.net
   udp: true
-
-- name: 15. US.1
-  server: 104.18.107.64
-  port: 443
-  type: trojan
-  password: 81d4f550-60d4-11ee-8d89-1239d0255272
-  skip-cert-verify: true
-  sni: us1.test3.net
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: us1.test3.net
-  udp: true
   
 - name: 16. H1.1
   server: 104.18.107.64
@@ -282,7 +268,6 @@ proxy-groups:
   - 11. H3
   - 12. MEL
   - 14. ID
-  - 15. US.1
   - 16. H1.1
   - 17. AMP
   - 18. ASI
