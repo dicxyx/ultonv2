@@ -521,7 +521,7 @@ proxies:
       Host: sg-2.test3.net
   udp: true
 #3⃣
-- name: 1. UK-C
+- name: 17. UK-C
   server: 104.16.65.85
   port: 443
   type: trojan
@@ -535,7 +535,7 @@ proxies:
       Host: ro1.test3.net
   udp: true
 
-- name: 2. GE-C
+- name: 18. GE-C
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -549,7 +549,7 @@ proxies:
       Host: de1.test3.net
   udp: true
 
-- name: 3. TR-C
+- name: 19. TR-C
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -563,7 +563,7 @@ proxies:
       Host: tr.test3.net
   udp: true
 
-- name: 4. FR-C
+- name: 20. FR-C
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -577,7 +577,7 @@ proxies:
       Host: fr1.test3.net
   udp: true
   
-- name: 5. CA-C
+- name: 21. CA-C
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -591,7 +591,7 @@ proxies:
       Host: ca1.test3.net
   udp: true
 
-- name: 6. TH-C
+- name: 22. TH-C
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -605,7 +605,7 @@ proxies:
       Host: th1-trojan.bonds.id
   udp: true
 
-- name: 7. MUX-C
+- name: 23. MUX-C
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -619,7 +619,7 @@ proxies:
       Host: sg6-trojan.bonds.id
   udp: true
   
-- name: 8. MEL-C
+- name: 24. MEL-C
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -633,7 +633,7 @@ proxies:
       Host: sg-4.test3.net
   udp: true
 
-- name: 9. H3-C
+- name: 25. H3-C
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -647,7 +647,7 @@ proxies:
       Host: sg3-trojan.bonds.id
   udp: true
 
-- name: 10. H2-C
+- name: 26. H2-C
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -661,7 +661,7 @@ proxies:
       Host: sg2-trojan.bonds.id
   udp: true
 
-- name: 11. US-C
+- name: 27. US-C
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -675,7 +675,7 @@ proxies:
       Host: us1.test3.net
   udp: true
   
-- name: 12. ID-C
+- name: 28. ID-C
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -689,7 +689,7 @@ proxies:
       Host: id-1.test3.net
   udp: true
   
-- name: 13. H1-C
+- name: 29. H1-C
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -703,7 +703,7 @@ proxies:
       Host: sg1-trojan.bonds.id
   udp: true
   
-- name: 14. AMP-C
+- name: 30. AMP-C
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -717,7 +717,7 @@ proxies:
       Host: sg-2.test3.net
   udp: true
   
-- name: 15. AMP-BB
+- name: 31. AMP-BB
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -731,7 +731,7 @@ proxies:
       Host: sg1-trojan.bonds.id
   udp: true
 
-- name: 16. ASI-BB
+- name: 32. ASI-BB
   server: 104.18.107.64
   port: 443
   type: trojan
