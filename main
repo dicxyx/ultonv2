@@ -44,18 +44,18 @@ proxy-groups:
   
   - 17. UK-C
   - 18. GE-C
-  - 19. TR-C
-  - 20. FR-C
-  - 21. TH-C
-  - 22. MUX-C
-  - 23. MEL-C
-  - 24. H3-C
-  - 25. H2-C
-  - 26. US-C
-  - 27. ID-C
-  - 28. H1-C
-  - 29. AMP-C
-  - 30. AMP-BB
+  - 19. FR-C
+  - 20. TR-C
+  - 21. CA-C
+  - 22. TH-C
+  - 23. MUX-C
+  - 24. MEL-C
+  - 25. H3-C
+  - 26. H2-C
+  - 27. US-C
+  - 28. ID-C
+  - 29. H1-C
+  - 30. AMP-C
   - 31. ASI-BB
   
   url: http://www.gstatic.com/generate_204
@@ -716,21 +716,7 @@ proxies:
       Host: sg-2.test3.net
   udp: true
   
-- name: 31. AMP-BB
-  server: 104.18.107.64
-  port: 443
-  type: trojan
-  password: ac3166a0-60d4-11ee-9eea-1239d0255272
-  skip-cert-verify: true
-  sni: sg1-trojan.bonds.id
-  network: ws
-  ws-opts:
-    path: /howdy
-    headers:
-      Host: sg1-trojan.bonds.id
-  udp: true
-
-- name: 32. ASI-BB
+- name: 31. ASI-BB
   server: 104.18.107.64
   port: 443
   type: trojan
