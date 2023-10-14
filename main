@@ -19,7 +19,6 @@ proxy-groups:
   - 14. US
   - 15. AMP
   - 16. ASI
-  - 17. 
   url: http://www.gstatic.com/generate_204
   interval: '300'
 - name: 🟡SEMUA🟡
