@@ -19,6 +19,7 @@ proxy-groups:
   - 14. US
   - 15. AMP
   - 16. ASI
+  - 17. 
   url: http://www.gstatic.com/generate_204
   interval: '300'
 - name: 🟡SEMUA🟡
@@ -41,6 +42,24 @@ proxy-groups:
   - 14. US-B
   - 15. AMP-B
   - 16. ASI-B
+  
+  - 17. UK-C
+  - 18. GE-C
+  - 18. TR-C
+  - 19. FR-C
+  - 20. TR-C
+  - 21. TH-C
+  - 22. MUX-C
+  - 23. MEL-C
+  - 24. H3-C
+  - 25. H2-C
+  - 26. US-C
+  - 27. ID-C
+  - 28. H1-C
+  - 29. AMP-C
+  - 30. AMP-BB
+  - 31. ASI-BB
+  
   url: http://www.gstatic.com/generate_204
   interval: '300'
 #🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰
@@ -502,7 +521,230 @@ proxies:
     headers:
       Host: sg-2.test3.net
   udp: true
+#3⃣
+- name: 1. UK-C
+  server: 104.16.65.85
+  port: 443
+  type: trojan
+  password: 5f393a80-6a7f-11ee-9612-1239d0255272
+  skip-cert-verify: true
+  sni: uk1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: ro1.test3.net
+  udp: true
 
+- name: 2. GE-C
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: a2181cb0-6a7e-11ee-a590-1239d0255272
+  skip-cert-verify: true
+  sni: de1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: de1.test3.net
+  udp: true
+
+- name: 3. TR-C
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: 084bf500-6a7f-11ee-b6fa-1239d0255272
+  skip-cert-verify: true
+  sni: tr.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: tr.test3.net
+  udp: true
+
+- name: 4. FR-C
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: e3929f60-6a7e-11ee-9c8e-1239d0255272
+  skip-cert-verify: true
+  sni: fr1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: fr1.test3.net
+  udp: true
+  
+- name: 5. CA-C
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: 94dc4d30-6a7f-11ee-8b7d-1239d0255272
+  skip-cert-verify: true
+  sni: ca1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: ca1.test3.net
+  udp: true
+
+- name: 6. TH-C
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: e64f1fc0-6a7f-11ee-aefc-1239d0255272
+  skip-cert-verify: true
+  sni: th1-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: th1-trojan.bonds.id
+  udp: true
+
+- name: 7. MUX-C
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: 2f7d12a0-6a80-11ee-94ef-1239d0255272
+  skip-cert-verify: true
+  sni: sg6-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg6-trojan.bonds.id
+  udp: true
+  
+- name: 8. MEL-C
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: 609b5580-6a80-11ee-9056-1239d0255272
+  skip-cert-verify: true
+  sni: sg-4.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-4.test3.net
+  udp: true
+
+- name: 9. H3-C
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: a9fecab0-6a80-11ee-93dc-1239d0255272
+  skip-cert-verify: true
+  sni: sg3-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg3-trojan.bonds.id
+  udp: true
+
+- name: 10. H2-C
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: e5f777e0-6a80-11ee-95a4-1239d0255272
+  skip-cert-verify: true
+  sni: sg2-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg2-trojan.bonds.id
+  udp: true
+
+- name: 11. US-C
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: 0a6880a0-6a81-11ee-a27a-1239d0255272
+  skip-cert-verify: true
+  sni: us1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: us1.test3.net
+  udp: true
+  
+- name: 12. ID-C
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: 4aa94490-6a81-11ee-ac8e-1239d0255272
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: id-1.test3.net
+  udp: true
+  
+- name: 13. H1-C
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: 8e2a9310-6a81-11ee-b03b-1239d0255272
+  skip-cert-verify: true
+  sni: sg1-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg1-trojan.bonds.id
+  udp: true
+  
+- name: 14. AMP-C
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: bb2b6b10-6a81-11ee-ac2f-1239d0255272
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-2.test3.net
+  udp: true
+  
+- name: 15. AMP-BB
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: ac3166a0-60d4-11ee-9eea-1239d0255272
+  skip-cert-verify: true
+  sni: sg1-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg1-trojan.bonds.id
+  udp: true
+
+- name: 16. ASI-BB
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: c467ddb0-60d5-11ee-8a63-1239d0255272
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-2.test3.net
+  udp: true
 #🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰    
 dns:
   nameserver:
